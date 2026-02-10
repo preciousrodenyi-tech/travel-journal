@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>My Travel Journal</header>
+    <div>
+        <h1>Welcome to my travel journal</h1>
+        <p>My name is precious i have been traveling around the world for the past few months.</p>
+        <p>Traveling is my hobbie and i like exploring new places and cultures.</p> 
+    </div>
+<section>
+    <h2>Add a new travel entry</h2>
+    <form id="Place-form">
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" required><br>
+    <label for="Landmark">Landmark:</label>
+    <input type="text" id="Landmark" placeholder="Beach ,Island, Museam,Hiking">
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+    <label for="Timeoftheyear">Timeoftheyear:</label>
+    <input type="text" id="Timeoftheyear" placeholder="Spring, Summer, Autumn, Winter">
+<label for="Note">Note:</label>
+<textarea id="Note" placeholder="Write your expirience here "></textarea>
+<button type="submit">Add Entry</button>
+    </form>
+</section>
+<section>
+    <h2>
+        my travel entries
+    </h2>
+    <ul id="travel-entries-list">
+        <!-- Travel entries will be added here dynamically -->
+    </ul>
+</section>
+<section>
+    <h2>places have visited</h2>
+    <ul id="visited-places-list">
+        <!-- Visited places will be added here dynamically -->
+         
+    </ul>
+    
+</section>
+<script src="script.js"></script>
+</body>
+</html>
